@@ -36,7 +36,7 @@ int main()
     cout << "Fahsai: I think you are an Engineering student. What is your student ID?\n";
     cout << name << ": ";
     cin >> ID;
-    cout << "Fahsai: I think you may be GEAR " <<  int(ID/pow(10,7)) - 12 << " I have a free movie ticket for you.\n";
+    cout << "Fahsai: I think you may be GEAR " <<  int(ID/pow(10,7)) - 12 << ". I have a free movie ticket for you.\n";
 
     cin.ignore();
 
