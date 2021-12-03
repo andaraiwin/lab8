@@ -52,7 +52,7 @@ int main()
     cout << "Fahsai: " << day << "....that is OK!!! I'm looking forward to watching " << movie << " with you.\n";
 
     cout << name << ": ";
-    cin >> s1;
+    getline(cin, s1);
     cout << "Fahsai: 555+ see you " << day << ". Bye Bye \\(^ ^)/";
 
     return 0;
